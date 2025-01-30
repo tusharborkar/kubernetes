@@ -12,6 +12,10 @@ on:
   push:
     branches: [ "**" ]
 
+permissions:
+  contents: write
+  security-events: write
+
 jobs:
   build:
 
